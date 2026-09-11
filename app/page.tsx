@@ -125,7 +125,7 @@ export default function Page() {
 
               <div className="portrait-frame">
                 <div className="portrait-inner">
-                  <img src="/placeholder-user.jpg" alt="Amisha Choudhary" className="hero-image" />
+                  <img src="/photo.jpg" alt="Amisha Choudhary" className="hero-image" />
                 </div>
               </div>
 
@@ -246,7 +246,10 @@ export default function Page() {
                       <span>Problem</span><span>Idea</span><span>Solution</span><span>Technology</span><span>Contribution</span>
                     </div>
                   </div>
-                  <div className="project-image"><span className="project-image-text">{project.project}</span></div>
+                  <div className="project-image">
+                    <img src="/gramsetu-logo.svg" alt="GramSetu logo" className="project-logo" />
+                    <span className="project-image-text">{project.project}</span>
+                  </div>
                 </div>
               </article>
             ))}

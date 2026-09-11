@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="260" viewBox="0 0 420 260">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#22a45a"/>
+      <stop offset="1" stop-color="#153c1d"/>
+    </linearGradient>
+  </defs>
+  <rect width="420" height="260" rx="24" fill="#eef7ef"/>
+  <path d="M20 150C42 70 80 57 97 88C120 76 120 45 139 46C154 48 167 65 178 97C205 86 225 101 221 132C242 124 256 134 263 143C284 130 302 150 290 170C270 178 260 202 242 196C221 196 196 204 180 224C160 211 149 190 126 207C108 190 89 190 76 205C50 194 37 176 20 150Z" fill="url(#g)" opacity="0.95"/>
+  <path d="M44 138C70 118 79 110 100 119C78 139 84 150 105 150C118 166 134 164 144 153C141 172 159 184 168 173" fill="none" stroke="#eaf8e4" stroke-width="3"/>
+  <path d="M118 146C149 136 159 125 160 110C174 125 181 140 188 146C196 150 205 154 215 155" fill="none" stroke="#eaf8e4" stroke-width="2"/>
+  <text x="210" y="126" font-family="Arial, sans-serif" font-size="50" font-weight="700" fill="#154d20">GramSetu</text>
+  <text x="210" y="160" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#305b30">Village to Village · Hand to Hand</text>
+  <path d="M38 198C101 219 138 193 172 198C203 203 224 196 247 199C270 203 300 197 316 190" fill="none" stroke="#c88812" stroke-width="4"/>
+  <circle cx="205" cy="190" r="6" fill="#95b84c"/>
+  <circle cx="230" cy="190" r="6" fill="#95b84c"/>
+  <circle cx="255" cy="190" r="6" fill="#95b84c"/>
+</svg>
