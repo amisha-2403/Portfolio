@@ -51,7 +51,7 @@ const projects = [
 const experiences = [
   { year: '2024', title: 'B.Tech / Computer Science begins', type: 'Education', detail: 'Started B.Tech in Computer Science at SKIT, Jaipur.' },
   { year: '2024', title: '15-Day In-House Internship', type: 'KISTechno Software', detail: 'Worked with HTML, CSS, JavaScript, Bootstrap, PHP, and MySQL.' },
-  { year: '2024', title: 'JKLU Hackathon', type: 'Startup–Student–Expert Collaboration Platform', detail: 'Built a hackathon prototype for a broader collaboration idea.' },
+  { year: '2024', title: 'JKLU Hackathon', type: 'Startupï¿½Studentï¿½Expert Collaboration Platform', detail: 'Built a hackathon prototype for a broader collaboration idea.' },
   { year: '2025', title: '45-Day Internship', type: 'Amigzo Pvt. Ltd.', detail: 'Practical full-stack development learning and the path toward GramSetu.' },
   { year: '2026', title: 'GramSetu', type: 'Independent / Post-Internship Project', detail: 'Rural commerce and agriculture-focused platform.' },
 ]
@@ -75,7 +75,7 @@ export default function Page() {
         </nav>
 
         <a className="nav-cta" href="#contact">
-          <span>Let’s Connect</span>
+          <span>Letï¿½s Connect</span>
           <svg viewBox="0 0 24 24" aria-hidden="true">
             <path d="M4 12h16M14 4l8 8-8 8" fill="none" stroke="currentColor" strokeWidth="2" />
           </svg>
@@ -85,7 +85,7 @@ export default function Page() {
       <main className="main-content">
         <section className="hero-section" id="home">
           <div className="hero-copy">
-            <div className="section-kicker"><span></span>Full-Stack Developer · Computer Science Student</div>
+            <div className="section-kicker"><span></span>Full-Stack Developer ï¿½ Computer Science Student</div>
             <h1>
               <span className="hero-heading-line">Amisha</span>
               <span className="hero-heading-line">Choudhary</span>
@@ -103,7 +103,7 @@ export default function Page() {
                   <path d="M4 12h16M14 4l8 8-8 8" fill="none" stroke="currentColor" strokeWidth="2" />
                 </svg>
               </a>
-              <a className="button secondary" href="#contact"><span>Let’s Connect</span></a>
+              <a className="button secondary" href="#contact"><span>Letï¿½s Connect</span></a>
               <a className="button tertiary" href="/resume.pdf"><span>View Resume</span></a>
             </div>
 
@@ -144,7 +144,7 @@ export default function Page() {
               <p>I enjoy turning ideas into functional applications and learning through the process of building them. My journey so far has included academic projects, independent work, internships, and hackathons, helping me explore both frontend and backend development.</p>
               <p>I am especially interested in full-stack development and in understanding how AI and ML can become useful parts of software products. My goal is to grow into a strong software developer who can build useful, scalable, and user-focused applications.</p>
               <div className="about-stats">
-                <div><span className="stat-label">Education</span><span className="stat-value">2024–2028</span></div>
+                <div><span className="stat-label">Education</span><span className="stat-value">2024ï¿½2028</span></div>
                 <div><span className="stat-label">Degree</span><span className="stat-value">B.Tech CS</span></div>
                 <div><span className="stat-label">College</span><span className="stat-value">SKIT</span></div>
               </div>
@@ -158,7 +158,7 @@ export default function Page() {
                 </div>
                 <div className="timeline-list">
                   <div className="timeline-row"><span className="timeline-point"></span><span><span className="timeline-number">3rd Year</span><span className="timeline-copy">Computer Science</span></span></div>
-                  <div className="timeline-row"><span className="timeline-point"></span><span><span className="timeline-number">2024–2028</span><span className="timeline-copy">B.Tech in Computer Science</span></span></div>
+                  <div className="timeline-row"><span className="timeline-point"></span><span><span className="timeline-number">2024ï¿½2028</span><span className="timeline-copy">B.Tech in Computer Science</span></span></div>
                   <div className="timeline-row"><span className="timeline-point"></span><span><span className="timeline-number">Full-Stack</span><span className="timeline-copy">Primary Direction</span></span></div>
                   <div className="timeline-row"><span className="timeline-point"></span><span><span className="timeline-number">AI/ML</span><span className="timeline-copy">Exploring</span></span></div>
                   <div className="timeline-row"><span className="timeline-point"></span><span><span className="timeline-number">2 Internships</span><span className="timeline-copy">Learning through practice</span></span></div>
@@ -260,7 +260,7 @@ export default function Page() {
           </div>
           <div className="education-card">
             <div className="education-meta">
-              <span className="education-year">2024–2028</span>
+              <span className="education-year">2024ï¿½2028</span>
               <span className="education-status">Current: 3rd Year</span>
             </div>
             <div className="education-body">
@@ -308,10 +308,10 @@ export default function Page() {
               <span className="profile-title">Problem Solving</span>
               <span className="profile-link">leetcode.com/u/AMISHA78/</span>
             </a>
-            <a className="profile-card" href="#contact">
+            <a className="profile-card" href="https://www.linkedin.com/feed/">
               <span className="profile-icon">LinkedIn</span>
               <span className="profile-title">LinkedIn Profile</span>
-              <span className="profile-link">LINKEDIN_PROFILE_URL</span>
+              <span className="profile-link">linkedin.com/feed</span>
             </a>
           </div>
         </section>
@@ -320,12 +320,12 @@ export default function Page() {
           <div className="contact-grid">
             <div className="contact-copy">
               <span className="section-tag">Contact</span>
-              <h2>Have an idea?<br />Let’s build it.</h2>
-              <p>I’m interested in collaborative development, full-stack product work, internships, hackathons, and software ideas that create real value.</p>
+              <h2>Have an idea?<br />Letï¿½s build it.</h2>
+              <p>Iï¿½m interested in collaborative development, full-stack product work, internships, hackathons, and software ideas that create real value.</p>
               <div className="contact-links">
                 <a className="button primary" href="mailto:EMAIL_PLACEHOLDER@example.com"><span>Email Me</span></a>
                 <a className="button secondary" href="https://github.com/amisha-2403?tab=repositories"><span>GitHub</span></a>
-                <a className="button tertiary" href="#"><span>LinkedIn</span></a>
+                <a className="button tertiary" href="https://www.linkedin.com/feed/"><span>LinkedIn</span></a>
               </div>
             </div>
             <form className="contact-form">
