@@ -116,14 +116,34 @@ export default function Page() {
 
           <aside className="hero-image-wrap" aria-label="Amisha Choudhary portrait">
             <div className="hero-image-frame">
-              <div className="image-backdrop-orbit orbit-one"></div>
-              <div className="image-backdrop-orbit orbit-two"></div>
-              <img src="/placeholder-user.jpg" alt="Amisha Choudhary" className="hero-image" />
-              <div className="image-shadow"></div>
+              <div className="hero-image-backdrop">
+                <span className="backdrop-grid"></span>
+                <span className="backdrop-orbit orbit-one"></span>
+                <span className="backdrop-orbit orbit-two"></span>
+                <span className="backdrop-orbit orbit-three"></span>
+              </div>
+
+              <div className="portrait-frame">
+                <div className="portrait-inner">
+                  <img src="/placeholder-user.jpg" alt="Amisha Choudhary" className="hero-image" />
+                </div>
+              </div>
+
+              <div className="geo-system" aria-hidden="true">
+                <span className="geo-node node-a"></span>
+                <span className="geo-node node-b"></span>
+                <span className="geo-node node-c"></span>
+                <span className="geo-line line-a"></span>
+                <span className="geo-line line-b"></span>
+                <span className="geo-cube cube-one"></span>
+                <span className="geo-cube cube-two"></span>
+              </div>
+
               <div className="floating-card floating-card-one">
                 <span className="floating-label">Focus</span>
                 <span className="floating-text">Full-Stack</span>
               </div>
+
               <div className="floating-card floating-card-two">
                 <span className="floating-label">Exploring</span>
                 <span className="floating-text">AI/ML</span>
