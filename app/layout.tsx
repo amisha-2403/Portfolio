@@ -1,11 +1,19 @@
-import { Analytics } from '@vercel/analytics/next'
 import type { Metadata, Viewport } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'v0 App',
-  description: 'Created with v0',
-  generator: 'v0.app',
+  metadataBase: new URL('https://portfolio.example.com'),
+  title: 'Amisha Choudhary | Full-Stack Developer & Computer Science Student',
+  description:
+    'Computer Science student and full-stack developer from Jaipur building practical web applications and exploring AI/ML.',
+  keywords: ['Amisha Choudhary', 'Full-Stack Developer', 'Computer Science Student', 'Jaipur'],
+  openGraph: {
+    title: 'Amisha Choudhary | Full-Stack Developer & Computer Science Student',
+    description:
+      'Computer Science student and full-stack developer from Jaipur building practical web applications and exploring AI/ML.',
+    type: 'website',
+    locale: 'en_IN',
+  },
   icons: {
     icon: [
       {
@@ -26,11 +34,8 @@ export const metadata: Metadata = {
 }
 
 export const viewport: Viewport = {
-  colorScheme: 'light dark',
-  themeColor: [
-    { media: '(prefers-color-scheme: light)', color: 'white' },
-    { media: '(prefers-color-scheme: dark)', color: 'black' },
-  ],
+  colorScheme: 'dark',
+  themeColor: '#16110f',
 }
 
 export default function RootLayout({
@@ -40,10 +45,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="antialiased">
-        {children}
-        {process.env.NODE_ENV === 'production' && <Analytics />}
-      </body>
+      <body>{children}</body>
     </html>
   )
 }
